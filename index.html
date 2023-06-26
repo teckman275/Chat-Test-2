@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        
+        <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+        <script src="frontServer.js"></script>
+
+        <style>
+            
+            .input{
+                position: absolute;
+                bottom: 30px;
+            }
+        </style>
+
+        <div class = "topnav">
+            <a>ChatApp v1</a>
+        </div>
+
+    </head>
+    <body>
+        <div id="messageContainer"></div>
+
+        <form class="input">
+            <input type="text" id = "textBox">
+            <button type="button" id = "sendButton" onclick="sendMsg()">Send</button>
+        </form>
+    </body>
+</html>
