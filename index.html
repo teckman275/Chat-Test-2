@@ -14,6 +14,21 @@
                 position: absolute;
                 bottom: 30px;
             }
+
+            .scroll{
+                position: absolute;
+                width: 500px;
+                top: 40px;
+                bottom: 60px;
+                overflow: auto;
+                text-align:justify;
+            }
+
+            p{
+                /*color: white;*/
+                padding-left: 20px;
+            }
+
         </style>
 
         <div class = "topnav">
@@ -22,7 +37,7 @@
 
     </head>
     <body>
-        <div id="messageContainer"></div>
+        <div id="messageContainer" class="scroll"></div>
 
         <form class="input">
             <input type="text" id = "textBox">

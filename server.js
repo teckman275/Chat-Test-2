@@ -6,7 +6,7 @@ const io = new Server({
     }
 });
 
-const messages = ["one", "two", "three"]
+const messages = [];
 let numOnline = 0
 
 io.on('connection', (socket) => {
