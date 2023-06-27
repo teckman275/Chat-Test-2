@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000')
+const socket = io('http://193.168.4.130:3000')
 
 socket.on('message', data => {
     updateMessages(data);
